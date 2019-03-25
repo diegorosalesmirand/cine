@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SELECCION DE BOLETOS</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #088A85;">
+  <a class="navbar-brand" href="#">CINEPREMIUM</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">CINES<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">DELEGACION</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        CIUDAD
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar Pelicula</button>
+    </form>
+  </div>
+</nav>
+<!--cierre navbar-->
+<!--inicio card para cartelera-->
+<h1 style="color: #0B610B; font-family:'Indie Flower', cursive; text-align: center;">BOLETOS</h1>
+
+<div class="card">
+  <h5 class="card-header" style="background-color: #F2F5A9;color: #0101DF">CINEPOLIS SATELITE</h5>
+  <div class="card-body">
+    <h5 class="card-title">UN GRAN DINOSAURIO </h5>
+    <!----inicia tarjeta----->
+<div class="row">
+
+<div class="col-sm-6"> 
+    <div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="img/dinosaurio.jfif" class="card-img" alt="dinosaurio.jfif">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">BOLETOS</h5>
+        <p class="card-text">CINE:   CINEPREMUM         .     .
+                             PELICULA:    UN GRAN DINOSAURIO
+                             FECHA:  15/09/19
+                             FUNCION: 12:30 PM. </p>
+        <p class="card-text"><small class="text-muted">Duracion 2 hrs.</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div><!---cierre del tarjetero--->
+
+ <!---barra selectora-->
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">1- SELECCIONA TU HORARIO</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">2- ESCOGE TU LUGAR</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">3- HAZ TU PAGO</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">4 CONFIRMA TU COMPRA</a>
+  </li>
+</ul>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col" style="text-align: center;">Cantidad</th>
+      <th scope="col" style="text-align: center;">Costo</th>
+      <th scope="col" style="text-align: center;">Subtotal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;">3 Era edad</td>
+      <td style="text-align: center;"><button type="button" class="increase">-</button> 0 <button type="button" class="increase">+</button></td>
+      <td style="text-align: center;}">$49.00</td>
+    </tr>
+
+     <tr>
+      <td style="text-align: center;">Niños</td>
+      <td style="text-align: center;"><button type="button" class="increase">-</button> 0 <button type="button" class="increase">+</button></td>
+      <td style="text-align: center;">$49.00</td>
+    </tr>
+
+     <tr>
+      <td style="text-align: center;">Adultos</td>
+      <td style="text-align: center;"><button type="button" class="increase">-</button> 0 <button type="button" class="increase">+</button></td>
+      <td style="text-align: center;">$49.00</td>
+    </tr>
+  </tbody>
+</table>
+
+<button type="button" class="btn btn-primary btn-lg btn-block">ESCOGE TU LUGAR</button>
+<button type="button" class="btn btn-secondary btn-lg btn-block">Canjea tu numero de folio o tu CINEBONO</button>
+<button type="button" class="btn btn-primary btn-lg btn-block">Utiliza tu CINEPASS  da clic aqui</button>
+<button type="button" class="btn btn-secondary btn-lg btn-block">Si deseas utilizar tu PASE ANUAL da clic aquí</button>
+</html>
